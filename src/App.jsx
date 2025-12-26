@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; // 1. Link va Router import qilindi
 import './App.css';
-import Single from './Single'; // 2. Single komponentini to'g'ri import qiling
+import Single from './single'; // 2. Single komponentini to'g'ri import qiling
 
 // Bu asosiy sahifa komponenti (Mahsulotlar ro'yxati)
 const Home = () => {
